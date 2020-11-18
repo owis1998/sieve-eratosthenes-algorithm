@@ -70,6 +70,3 @@ class Window(Tk):
 				break
 
 		ttk.Label(master = self, text = '  Done  ').grid(row = 2, column = 0)
-
-
-Window()
