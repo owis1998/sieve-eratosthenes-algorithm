@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 import time
+
 class Window(Tk):
 	def __init__(self):
 		super().__init__()
