@@ -37,11 +37,11 @@ class Window(Tk):
 		ttk.Button(
 					master = self,
 					text = 'start',
-					command = self.eartosthenes_algorithm
+					command = self.__eartosthenes_algorithm
 				
 				).grid(row = 1, column = 0)
 
-	def eartosthenes_algorithm(self):
+	def __eartosthenes_algorithm(self):
 		ttk.Label(master = self, text = 'Loading').grid(row = 2, column = 0)
 		composite = [i for i in range(2,121)]
 		prime = []
